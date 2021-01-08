@@ -1,6 +1,6 @@
 import Head from 'next/head';
 
-export const Home = (): JSX.Element => {
+const Home = (): JSX.Element => {
   return (
     <div className="container mx-auto px-8">
       <Head>
@@ -57,9 +57,7 @@ export const Home = (): JSX.Element => {
             href="https://vercel.com/import?filter=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
           >
             <h3 className="text-2xl mb-4">Deploy &rarr;</h3>
-            <p className="m-0 text-xl leading-normal">
-            Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
+            <p className="m-0 text-xl leading-normal">Instantly deploy your Next.js site to a public URL with Vercel.</p>
           </a>
         </div>
       </main>
